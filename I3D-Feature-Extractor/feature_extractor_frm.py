@@ -146,4 +146,4 @@ if __name__ == "__main__":
 
     feature_extractor()
 
-
+This code seems to be extracting I3D features from videos using pre-trained weights. It takes as input a list of video paths and saves the extracted features in a specified directory. The code utilizes TensorFlow and the i3d module to perform the feature extraction. It also includes command-line arguments to customize the GPU, output feature directory, video list file, and video frame directory.
